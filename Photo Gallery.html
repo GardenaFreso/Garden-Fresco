@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="js/image_slider.js"></script>
+        <link rel="Stylesheet" type="text/css" href="CSS/Styling.css">
+        <style type="text/css">
+            fieldset{
+                border: black;
+                background-color: black;
+                color: white;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: cursive;
+                height: 40px;
+            }
+            footer{
+                position: obsolute;
+                buttom: 0;
+                width: 100%;
+            }
+        </style>
+        <title>Photo Gallery</title>
+    </head>
+    
+    <body>
+        <header class="logo-head">
+            <a href="index.html">
+            <img src="img/logo2.png" alt="Garden Fresco" title="Garden Fresco - A Place Of Heart">
+            </a>
+            <h4>All Of Us For All Of You</h4>
+        </header>
+        
+         <nav>
+            <a href="index.html" class="link">Home</a>
+            <a href="Our Work.html" class="link">Our Work</a>
+            <a href="Photo Gallery.html" class="link">Photo Gallery</a>
+            <a href="Get involved.html" class="link">Get Involved</a>
+            <a href="About us.html" class="link">About Us</a>
+            <a href="contactform.html" class="link">Contact Us</a>
+        </nav>
+        
+        <div>
+        <h2>Photo Gallery</h2>
+        <div class="container">
+            <a onclick="previous()" class="prev"><</a>
+                <img id="slider" src="img/greenhouse.jpeg" class="slider_images">
+                <fieldset id="caption-slider" class="captionContainer">Gallery</fieldset>
+            <a onclick="next()" class="next">></a>
+        </div>
+        
+        <h3>Our team</h3>
+            <div class="same-page-wrapper">
+            <div class="row">
+                <div class="column">
+                    <img src="img/team/president.jpg" alt="President" class="v-images">
+                    <h3>President</h3>
+                    <h4>Tshiamo Kotsi</h4>
+                    <p>Co-founder of Garden Fresco</p>
+                    <a href="mailto:ktsiamo@gmail.com" class="button">Contact</a>
+                </div>
+                <div class="column">
+                    <img src="img/team/operations-managers.jpg" alt= "Chief operations" class="v-images">
+                    <h3>Operations Managers</h3>
+                    <h4>Kagiso and Tshegofatso</h4>
+                    <p>They manage of the day to day operations of the program</p>
+                    <a href="mailto:kagisoH@gmail.com" class="button">Contact</a>
+                </div>
+        
+        
+        <footer id="footer">
+            Copyright &copy; Garden Fresco<br>
+            2019-2021
+        </footer>
+    </body>
+</html>
